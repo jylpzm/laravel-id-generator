@@ -42,7 +42,7 @@ class IdGenerator
         }
 
         $table = $configArr['table'];
-        $field = array_key_exists('field', $configArr) ? $configArr['field'] : 'id';
+        $field = array_key_exists('field', $configArr) ? $configArr['field'] : 'user_id';
         $prefix = $configArr['prefix'];
         $resetOnPrefixChange = array_key_exists('reset_on_prefix_change', $configArr) ? $configArr['reset_on_prefix_change'] : false;
         $length = $configArr['length'];
